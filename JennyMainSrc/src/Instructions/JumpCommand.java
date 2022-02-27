@@ -1,0 +1,27 @@
+package src.Instructions;
+
+import src.FileReader;
+import src.JumpUtil;
+import src.Main;
+
+import java.util.StringTokenizer;
+
+public class JumpCommand {
+    public static void jumpCommand(){
+        Main.PC+=2;
+        Main.OPC++;
+        int PC = 0;
+        try {
+            Main.operandA = Integer.parseInt(Main.st.nextToken());
+            JumpUtil.generateSumMapForA();
+            String term = "";
+            Main.st = new StringTokenizer(FileReader.commandText);
+            for (int i = 0 ; i < JumpUtil.sumMap.get(Main.operandA) ; i++) {
+                term = Main.st.nextToken();
+            }
+        } catch (Exception e){
+            System.out.println(Main.PC+": Non-Existent Element");
+            System.exit(254);
+        }
+    }
+}
