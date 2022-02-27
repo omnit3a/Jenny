@@ -1,7 +1,7 @@
 # Description
 Jenny is a interpreted stack-based procedural programming language that is modeled after x86 assembly in functionality.
 
-All jenny source files must use the .jen file extension
+All Jenny source files must use the .jen file extension
 
 # Plans for Jenny
 - [ ] Header files
