@@ -1,6 +1,6 @@
 # Description
 Jenny is an interpreted stack-based procedural programming language.
-I was inspired to create Jenny after watch Tsoding's videos on the creation of Porth.
+I was inspired to create Jenny after watching Tsoding's videos on the creation of Porth.
 
 All Jenny source files must use the ".jen" file extension.
 
