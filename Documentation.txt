@@ -26,6 +26,26 @@ Instruction Syntax:
     DUPE    : Duplicates the value at the top of the stack
     NOP     : Does nothing
 
+Plans for future features:
+    [ ] Header files
+    [ ] Standalone application to run the interpreter
+    [ ] Compiler
+    [ ] Multiple data types
+	[ ] Floating point numbers
+	[ ] Strings
+	[ ] Booleans
+	[ ] Bytes
+	[ ] Bits
+	[X] Integer
+    [ ] Multiple data structures
+	[ ] Arrays
+	[ ] Multidimensional arrays
+	[ ] Tuples
+	[ ] Hashmaps
+    [ ] Standard Library
+	[ ] Math Library
+	[ ] Graphics Library
+	[ ] IO Library
 Notes:
     -The print command can only take in one token (one piece of text without spaces) at a time. However, all underscores
      in that token are replaced with spaces
