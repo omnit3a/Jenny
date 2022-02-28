@@ -23,6 +23,7 @@ Instruction Syntax:
     HALT X  : Exit the program with exit code X (X must be no lower than 0, and no larger than 255)
     GET     : Gets a number from the console, and pushes it onto the stack
     BRING X : Copies the value at stack entry X up to top of the stack, then pushes the previous top value on top of that
+    DUPE    : Duplicates the value at the top of the stack
     NOP     : Does nothing
 
 Notes:

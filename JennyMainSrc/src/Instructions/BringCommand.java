@@ -22,7 +22,7 @@ public class BringCommand {
             Main.vars.push(tempA);
 
         } catch (Exception e){
-            System.out.println("Error swapping entries");
+            System.out.println("Error copying entries");
         }
     }
 }

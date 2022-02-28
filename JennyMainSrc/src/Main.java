@@ -15,6 +15,7 @@ public class Main {
 
     public static int operandA = 0;
     public static int operandB = 0;
+    public static String includeName = "";
 
     public static String com = "";
 
@@ -43,8 +44,9 @@ public class Main {
                 case "JE" -> JnzCommand.jnzCommand();
                 case "JNE" -> JzCommand.jzCommand();
                 case "JUMP" -> JumpCommand.jumpCommand();
-                case "GET" -> GetCommand.getCommand();
+                case "GET" -> GetinCommand.getinCommand();
                 case "BRING" -> BringCommand.bringCommand();
+                case "DUPE" -> DupeCommand.dupeCommand();
                 case "HALT" -> HaltCommand.haltCommand();
                 default -> NopCommand.nopCommand();
             }

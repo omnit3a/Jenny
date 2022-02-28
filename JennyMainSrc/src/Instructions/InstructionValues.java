@@ -8,6 +8,7 @@ public class InstructionValues{
 
     public static void FillTokens() {
         tokens.put("GET",1);
+        tokens.put("DUPE",1);
         tokens.put("POP", 1);
         tokens.put("PEEK", 1);
         tokens.put("PEEK++", 1);

@@ -20,7 +20,7 @@ public class FileReader {
                 }
 
             } else {
-                System.out.println("File not a Jenny source file");
+                System.out.println("File not a Jenny source file or Jenny Header file");
             }
             reader.close();
         } catch (Exception e) {

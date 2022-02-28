@@ -10,9 +10,9 @@ public class PrintCommand {
             String msg = Main.st.nextToken();
             if (msg.endsWith("^")) {
                 msg = msg.stripLeading();
-                msg = msg.replace('^',' ');
+                msg = msg.replace('^', ' ');
                 msg = msg.strip();
-                msg = msg.replace("_"," ");
+                msg = msg.replace("_", " ");
                 System.out.println(msg);
             } else {
                 msg = msg.stripLeading();
@@ -20,7 +20,6 @@ public class PrintCommand {
                 System.out.print(msg);
             }
         } catch (Exception e){
-            System.out.println(Main.PC+": Non-Existent Element");
             System.exit(254);
         }
 
