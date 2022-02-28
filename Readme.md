@@ -9,5 +9,13 @@ All Jenny source files must use the ".jen" file extension.
 - [ ] Standalone console app to run interpreter
 - [ ] Compiler
 - [ ] Multiple data types
+  - [ ] Floating Point Numbers
+  - [ ] Chars
+  - [ ] Bytes
+  - [ ] Bits
+  - [X] Integers
 - [ ] Multiple data structures
+  - [ ] Arrays
+  - [ ] Tuples
+  - [ ] Hashmaps 
 - [X] User Input
