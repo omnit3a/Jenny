@@ -28,7 +28,7 @@ Instruction Syntax:
 
 Plans for future features:
     [ ] Header files
-    [ ] Standalone application to run the interpreter
+    [X] Standalone application to run the interpreter
     [ ] Compiler
     [ ] Multiple data types
 	[ ] Floating point numbers
