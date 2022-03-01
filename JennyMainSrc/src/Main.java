@@ -44,7 +44,7 @@ public class Main {
                 case "JE" -> JnzCommand.jnzCommand();
                 case "JNE" -> JzCommand.jzCommand();
                 case "JUMP" -> JumpCommand.jumpCommand();
-                case "GET" -> GetinCommand.getinCommand();
+                case "GET" -> GetCommand.getCommand();
                 case "BRING" -> BringCommand.bringCommand();
                 case "DUPE" -> DupeCommand.dupeCommand();
                 case "HALT" -> HaltCommand.haltCommand();
