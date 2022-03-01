@@ -6,7 +6,7 @@ All Jenny source files must use the ".jen" file extension.
 
 ## Plans for Jenny (In order of importance)
 - [ ] Header files
-- [ ] Standalone console app to run interpreter
+- [X] Standalone console app to run interpreter (Only tested on macOS)
 - [ ] Antlr4 Implementation
 - [ ] Compiler
 - [ ] Multiple data types
@@ -21,10 +21,11 @@ All Jenny source files must use the ".jen" file extension.
   - [ ] Hashmaps 
 - [X] User Input
 
-## How to run the Jenny interpreter (as of Alpha v1.2)
-1. Download the source code
-2. Run the source code in your java IDE with an run configuration for applications
-3. Type in the path to the file you want to run
+## How to run the Jenny interpreter (as of Alpha v2.0)
+1. Download the correct zip file from the releases menu
+2. Run either "run.sh" (if you're on mac) or "run.bat" (if you're on Windows)
+3. You will be greeted with a blinking cursor once you run the startup file. Enter the file path of the ".jen" file you wish to run, then press enter
+4. You will now be running the program the you specified
  
 After step 3, you will be running a Jenny program
 
