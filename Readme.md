@@ -6,7 +6,7 @@ All Jenny source files must use the ".jen" file extension.
 
 ## Plans for Jenny (In order of importance)
 - [ ] Header files
-- [X] Standalone console app to run interpreter (Only tested on macOS)
+- [X] Standalone console app to run interpreter
 - [ ] Antlr4 Implementation
 - [ ] Compiler
 - [ ] Multiple data types
