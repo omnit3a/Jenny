@@ -31,4 +31,4 @@ After step 3, you will be running a Jenny program
 ## How to add a new feature to Jenny
 1. Add the code for the instruction to the "src.Instructions" package
 2. Add the switch-case for the instruction to the Main.java file
-3. Add the entry for the amount of tokens need for the instruction to the InstructionValues.tokens hashmap
+3. Add the entry for the amount of tokens needed for the instruction to the InstructionValues.tokens hashmap
