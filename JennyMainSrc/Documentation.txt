@@ -28,7 +28,4 @@ Instruction Syntax:
 
 Notes:
     -The print command can only take in one token (one piece of text without spaces) at a time. However, all underscores
-     in that token are replaced with spaces
-
-
-
+     in that token are replaced with spaces.
