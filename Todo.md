@@ -1,5 +1,5 @@
 ## Refactor Todo (In order of importance)
-- [ ] Remove all references to the Main.PC value
+- [ ] Remove all references to the Main.PC variable
 - [ ] Refactor error codes
 
 ## Bug-fix Todo (In order of importance)
