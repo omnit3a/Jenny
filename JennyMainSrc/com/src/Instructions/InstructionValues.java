@@ -10,7 +10,7 @@ public class InstructionValues{
         tokens.clear();
     }
 
-    public static void FillTokens() {
+    public static void FillTokens() {               //this contains the amount of tokens needed for each instruction, which is used to assist the JumpUtil class
         tokens.put("GET",1);
         tokens.put("DUPE",1);
         tokens.put("POP", 1);
