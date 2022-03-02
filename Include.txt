@@ -1,6 +1,0 @@
-Plans for the header file system:
-
-Files will use the ".jenh" file extension
-The code in a file will be called by using the "CALL" command, followed by the filename of the header file.
-
-A file can contain any code that the base language can contain.
