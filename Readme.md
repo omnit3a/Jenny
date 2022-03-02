@@ -6,7 +6,7 @@ All Jenny source files must use the ".jen" file extension.
 
 ## Plans for Jenny (In order of importance)
 See also: [Todo.md](Todo.md)
-- [ ] Code Comments (underway)
+- [X] Code Comments
 - [ ] Header files
 - [X] Standalone console app to run interpreter
 - [ ] Antlr4 Implementation
