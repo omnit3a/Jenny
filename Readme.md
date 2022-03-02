@@ -14,11 +14,11 @@ See also: [Todo.md](Todo.md)
 - [ ] Multiple data types
   - [ ] Bytes
   - [ ] Bits
-  - [ ] Chars
+  - [ ] Chars (Underway)
   - [ ] Floating-pont Numbers
   - [X] Integers
 - [ ] Multiple data structures
-  - [ ] Arrays
+  - [ ] Arrays  (Underway/Tied to Char implementation)
   - [ ] Tuples
   - [ ] Hashmaps 
 - [X] User Input
