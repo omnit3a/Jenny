@@ -15,7 +15,7 @@ public class JumpCommand {
             Main.operandA = Integer.parseInt(Main.st.nextToken());
             JumpUtil.generateSumMapForA();
             String term = "";
-            Main.st = new StringTokenizer(FileReader.commandText);
+            Main.st = new StringTokenizer(FileReader.commandText);                      //this does the same thing as the JnzCommand.jnzCommand() method, but unconditonally
             for (int i = 0 ; i < JumpUtil.sumMap.get(Main.operandA) ; i++) {
                 term = Main.st.nextToken();
             }
