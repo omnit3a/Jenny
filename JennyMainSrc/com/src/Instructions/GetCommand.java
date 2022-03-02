@@ -10,7 +10,7 @@ public class GetCommand {
 
     public static void getCommand() {
         try{
-            Main.vars.push(Integer.parseInt(scan.nextLine()));
+            Main.vars.push(Integer.parseInt(scan.nextLine()));              //this gets integer input, then places the input on top of the stack
         } catch (Exception ignored){
 
         }
