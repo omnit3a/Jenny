@@ -21,7 +21,7 @@ public class Main {
     public static Stack<Integer> vars = new Stack<>();
     public static boolean ZeroFlag = false;
 
-    public static void Tokenizer() {
+    public static void Tokenizer() {                                    //this is what actually loops through the code
         st = new StringTokenizer(FileReader.commandText);
         PC = 0;
         OPC = 0;
@@ -54,7 +54,7 @@ public class Main {
 
         public static void main(String[] args) throws Exception{
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            FileReader.Reader(reader.readLine());
+            FileReader.Reader(reader.readLine());           //this opens the file specifed by the user, so that the correct file is loaded into the interpreter
             InstructionValues.FillTokens();
             Main.Tokenizer();
         }
