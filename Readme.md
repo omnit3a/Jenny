@@ -12,8 +12,8 @@ See also: [Todo.md](Todo.md)
 - [ ] Antlr4 Implementation
 - [ ] Compiler
 - [ ] Multiple data types
-  - [ ] Bytes
-  - [ ] Bits
+  - [ ] Bytes (Underway)
+  - [ ] Bits  (Underway/Tied to Byte implementation)
   - [ ] Chars (Underway)
   - [ ] Floating-pont Numbers
   - [X] Integers
