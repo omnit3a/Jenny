@@ -9,6 +9,7 @@ See also: [Todo.md](Todo.md)
 - [X] Code Comments
 - [ ] Header files
 - [X] Standalone console app to run interpreter
+  - [ ] GUI App to run the interpreter
 - [ ] Antlr4 Implementation
 - [ ] Compiler
 - [ ] Multiple data types
