@@ -14,7 +14,7 @@ public class PrintCommand {
                 msg = msg.strip();              //this removes the trailing spaces
                 msg = msg.replace("_", " ");    //and finally, this adds in the spaces to the operand
                 System.out.println(msg);
-            } else {
+            } else {                            //if the operand doesnt end with "^", the operand is printed without a new line character
                 msg = msg.stripLeading();
                 msg = msg.replace("_"," ");
                 System.out.print(msg);
