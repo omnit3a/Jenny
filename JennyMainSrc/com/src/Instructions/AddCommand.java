@@ -7,7 +7,7 @@ public class AddCommand {
         Main.PC++;
         Main.OPC++;
         try {
-            int a = Main.vars.pop();
+            int a = Main.vars.pop();                //this loads the top 2 values from the stack so that they can be added together
             int b = Main.vars.pop();
             Main.vars.push(a+b);
         } catch (Exception e){
