@@ -5,6 +5,7 @@ I was inspired to create Jenny after watching Tsoding's videos on the creation o
 All Jenny source files must use the ".jen" file extension.
 
 ## Plans for Jenny (In order of importance)
+- [ ] Code Comments (underway)
 - [ ] Header files
 - [X] Standalone console app to run interpreter
 - [ ] Antlr4 Implementation
