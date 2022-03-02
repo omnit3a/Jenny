@@ -14,11 +14,11 @@ public class JumpUtil {
         sumMapB.clear();
     }
 
-    public static void generateSumMapForA() {                   //this is used to generate the line numbers for jumping
+    public static void generateSumMapForA() {                   //this is used to calculate the amount of tokens needed to get to certain jump location
         int sum = 0;
         int lineNumber = 1;
         Main.st = new StringTokenizer(FileReader.commandText);
-        while (lineNumber != Main.operandA) {
+        while (lineNumber != Main.operandA) {                  
             String com = Main.st.nextToken();
             try {
                 if (InstructionValues.tokens.get(com) > 1) {
@@ -28,7 +28,7 @@ public class JumpUtil {
                     lineNumber++;
                     sum++;
                 }
-                sumMap.put(lineNumber, sum);
+                sumMap.put(lineNumber, sum);                    //this places the amount of tokens needed for a specific line + amount of previous tokens into the sumMap hashmap
             } catch (Exception ignored) {
 
             }
