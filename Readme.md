@@ -10,16 +10,16 @@ See also: [Todo.md](Todo.md)
 - [ ] Header files
 - [X] Standalone console app to run interpreter
   - [ ] GUI App to run the interpreter
-- [ ] Antlr4 Implementation
+- [ ] Antlr4 Implementation/Complete Rewrite (Underway)
 - [ ] Compiler
 - [ ] Multiple data types
-  - [ ] Bytes (Underway)
-  - [ ] Bits  (Underway/Tied to Byte implementation)
-  - [ ] Chars (Underway)
+  - [ ] Bytes 
+  - [ ] Bits
+  - [ ] Chars
   - [ ] Floating-pont Numbers
   - [X] Integers
 - [ ] Multiple data structures
-  - [ ] Arrays  (Underway/Tied to Char implementation)
+  - [ ] Arrays
   - [ ] Tuples
   - [ ] Hashmaps 
 - [X] User Input
