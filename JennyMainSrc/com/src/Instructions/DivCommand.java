@@ -9,7 +9,7 @@ public class DivCommand {
         try {
             int a = Main.vars.pop();
             int b = Main.vars.pop();
-            Main.vars.push(b/a);
+            Main.vars.push(b/a);                        //this divides the top 2 entries on the stack by using reverse polish notation
         } catch (Exception e){
             System.out.println(Main.PC+": Arithmetic Error");
             System.exit(253);
