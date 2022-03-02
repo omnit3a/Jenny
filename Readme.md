@@ -14,7 +14,7 @@ See also: [Todo.md](Todo.md)
 - [ ] Header files
 - [X] Standalone console app to run interpreter
   - [ ] GUI App to run the interpreter
-- [ ] Antlr4 Implementation/Complete Rewrite (Underway)
+- [ ] Antlr4 Implementation/Complete Rewrite
 - [ ] Compiler
 - [ ] Multiple data types
   - [ ] Bytes 
