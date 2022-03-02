@@ -16,12 +16,12 @@ public class JnzCommand {
             Main.operandB = Integer.parseInt(Main.st.nextToken());
             JumpUtil.generateSumMapForA();
             String term = "";
-            if (!Main.ZeroFlag) {
+            if (!Main.ZeroFlag) {                                                                       //this jumps to line number operandA if the condition = true...
                 Main.st = new StringTokenizer(FileReader.commandText);
                 for (int i = 0 ; i < JumpUtil.sumMap.get(Main.operandA) ; i++) {
                     term = Main.st.nextToken();
                 }
-            } else {
+            } else {                                                                                    //otherwise, it jumps to line number operandB
                 Main.st = new StringTokenizer(FileReader.commandText);
                 for (int i = 0 ; i < JumpUtil.sumMap.get(Main.operandB) ; i++) {
                     term = Main.st.nextToken();
