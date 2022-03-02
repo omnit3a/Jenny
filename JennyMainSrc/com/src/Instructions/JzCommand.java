@@ -17,9 +17,9 @@ public class JzCommand {
             Main.operandB = Integer.parseInt(Main.st.nextToken());
             JumpUtil.generateSumMapForA();
             String term = "";
-            if (Main.ZeroFlag) {
-                Main.st = new StringTokenizer(FileReader.commandText);
-                for (int i = 0 ; i < JumpUtil.sumMap.get(Main.operandA) ; i++) {
+            if (Main.ZeroFlag) {                                                        //FIXME: the code for branching doesnt work, for some reason
+                Main.st = new StringTokenizer(FileReader.commandText);                  //this code **should** do the same thing as JnzCommand.jnzCommand(), but with the
+                for (int i = 0 ; i < JumpUtil.sumMap.get(Main.operandA) ; i++) {        //opposite condition
                     term = Main.st.nextToken();
                 }
             } else {
