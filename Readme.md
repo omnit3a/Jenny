@@ -33,11 +33,9 @@ See also: [Todo.md](Todo.md)
 2. Run either "run.sh" (if you're on mac) or "run.bat" (if you're on Windows)
   - 2.1 To run on mac, set the directory of the terminal to the folder where you saved the build for Jenny, then run the command "sh run.sh"
   - 2.2 To run on windows, set the directory of the command prompt to the folder where you saved the build for Jenny, then run the command "run.bat"
-4. You will be greeted with a blinking cursor once you run the startup file. Enter the file path of the ".jen" file you wish to run, then press enter
-5. You will now be running the program the you specified
+3. You will be greeted with a blinking cursor once you run the startup file. Enter the file path of the ".jen" file you wish to run, then press enter
+4. You will now be running the program the you specified
  
-After step 3, you will be running a Jenny program
-
 ## How to add a new feature to Jenny
 1. Add the code for the instruction to the "src.Instructions" package
 2. Add the switch-case for the instruction to the Main.java file
