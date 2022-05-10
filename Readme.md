@@ -4,10 +4,6 @@ I was inspired to create Jenny after watching Tsoding's videos on the creation o
 
 All Jenny source files must use the ".jen" file extension.
 
-## Notice!
-Currently, Jenny is undergoing a rewrite that utilizes Antlr4 as the parser and lexer, replacing the current method of using
-the StringTokenizer method of java.
-
 ## Plans for Jenny (In order of importance)
 See also: [Todo.md](Todo.md)
 - [X] Code Comments
