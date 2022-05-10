@@ -37,6 +37,6 @@ See also: [Todo.md](Todo.md)
 4. You will now be running the program the you specified
  
 ## How to add a new feature to Jenny
-1. Add the code for the instruction to the "src.Instructions" package
+1. Add the code for the instruction to the "com.src.Instructions" package
 2. Add the switch-case for the instruction to the Main.java file
 3. Add the entry for the amount of tokens needed for the instruction to the InstructionValues.tokens hashmap
